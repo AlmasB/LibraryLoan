@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.almasb.libraryloan.Controller">
+	<TextField onAction="#onSearch" />
+	<ChoiceBox fx:id="choiceBox" />
+	
+	<ListView fx:id="listView" />
+	<Button text="LOAN" onAction="#onLoan" />
+	<Button text="RETURN" onAction="#onReturn" />
+	
+</VBox>
+
